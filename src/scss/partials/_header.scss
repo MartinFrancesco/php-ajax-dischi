@@ -1,0 +1,14 @@
+//HEADER 
+header {
+    padding: 10px 0;
+    background: $header-col;
+    & .container {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        height: 5vh;
+        & img {
+            max-height: 80%;
+        }     
+    }
+}
